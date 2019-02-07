@@ -38,3 +38,34 @@ $array_month = [
  ];
 echo $calender_2018["December"];
  ?>
+ <?php
+  $name = keita;
+  if ($name == keita) {
+    echo "私は$name です";
+  } else {
+    echo "$name ではありません";
+  }
+   ?>
+   <?php
+    $total = 0;
+    for ($i = 0; $i <= 10000; $i++) {
+      $total += $i;
+    }
+    echo $total;
+    ?>
+    <?php
+    $fruits = array("apple","lemon","banana","orange","cherry");
+    foreach ($fruits as $fruit){
+      echo "要素は" . $fruit;
+      echo "\n";
+    } ?>
+    <?php
+
+    for ($i = 1; $i <= 100; $i++) {
+      if ($i % 5 == 0) {
+    echo $i;
+    echo "\n"; }}
+    ?>
+    <?php
+
+    
